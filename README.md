@@ -3,7 +3,7 @@ The enviroment should install 'django', 'djangorestframework', 'djoser'.
 
 ### Project requirement:
 1.	The admin can assign users to the manager group
-2.	You can access the manager group with an admin token
+2.	Admin can access the manager group with an admin token
 3.	The admin can add menu items 
 4.	The admin can add categories
 5.	Managers can log in 
@@ -29,7 +29,9 @@ The enviroment should install 'django', 'djangorestframework', 'djoser'.
 Create the following two user groups and then create some random users and assign them to these groups from the Django admin panel. 
 1. Manager
 2. Delivery crew
-Users not assigned to a group will be considered customers. Review the video about.
+3. Users not assigned to a group will be considered customers.
+
+ 
 
 ## API endpoints 
 Here are all the required API routes for this project grouped into several categories.
